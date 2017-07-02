@@ -1,0 +1,29 @@
+<p>You have an enquiry from the site</p>
+<table>
+    <tbody>
+        <tr>
+            <td>Name</td>
+            <td>{{ name }}</td>
+        </tr>
+        <tr>
+            <td>Email Address</td>
+            <td>{{ email }}</td>
+        </tr>
+        <tr>
+            <td>Phone Number</td>
+            <td>{{ phone }}</td>
+        </tr>
+        <tr>
+            <td>Preferred Contact Method</td>
+            <td>{{ preferred_method }}</td>
+        </tr>
+        <tr>
+            <td>Enquiry</td>
+            <td>{{ enquiry|escape }}</td>
+        </tr>
+        <tr>
+            <td>Invoice Number</td>
+            <td>{{ invoice }}</td>
+        </tr>
+    </tbody>
+</table>

@@ -1,0 +1,26 @@
+{
+    "name": "ipgroup/test",
+    "type": "project",
+    "authors": [
+        {
+            "name": "James Moey",
+            "email": "jamesmoey@gmail.com"
+        }
+    ],
+    "require": {
+        "silex/silex": "^2.1",
+        "symfony/security-csrf": "^3.3",
+        "twig/twig": "^2.4",
+        "swiftmailer/swiftmailer": "^6.0",
+        "monolog/monolog": "^1.23",
+        "symfony/validator": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "IPGGroup\\": "src/"
+        }
+    },
+    "require-dev": {
+        "jakoch/phantomjs-installer": "^2.1"
+    }
+}
